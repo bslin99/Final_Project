@@ -1,4 +1,14 @@
-## Welcome to CYPLAN255!
+### Welcome to CYPLAN255!
+
+### Visualizing Demographic Changes Near Bay Area Rail Stations
+
+# Scope and Motivation
+
+This project is focusing on understanding the impacts of rail stations on key demographic areas. The demographic areas include:
+- Income
+- Housing Type
+- Race
+
 
 You can use the [editor on GitHub](https://github.com/bslin99/Final_Project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
