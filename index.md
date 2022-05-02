@@ -1,18 +1,40 @@
-### Welcome to CYPLAN255!
+## Welcome to CYPLAN255!
 
-### Visualizing Demographic Changes Near Bay Area Rail Stations
+# Visualizing Demographic Changes Near Bay Area Rail Stations
 
-# Scope and Motivation
+### Scope and Motivation
 
-This project is focusing on understanding the impacts of rail stations on key demographic areas. The demographic areas include:
-- Income
-- Housing Type
-- Race
+This project is focusing on understanding the impacts of rail stations on key demographic areas. The Bay Area consist of multiple transportation agencies within the nine Bay Area Counties. Within those counties, there are seven rail lines that serves the residents of the Bay Area. The rail lines that will be focused on are BART, MUNI, and SMART. 
+
+Below is the graph of stations that are focused on in the project:
+
+**INSERT GRAPH HERE IDK HOW TO DO IT YET**
+
+The time frame that was focused on is between 2010 and 2020. The census tracts around each respective station of focus was analyed for temporal changes, before and after the station was opened. The demographic area that was the main focus was Household Income. 
+
+## Methodology
+
+In order to investigate the impact of Bay Area Rail Stations, we collected data from Metropolitan Transportation Commission (MTC) Data and American Community Survey (ACS) Data from 2010 - 2020. The MTC dataset provided train station data while the ACS data provides average household income for each respective tract.
+
+Packages that are ultilized in juypter notebook for the analysis are below:
+
+```markdown
+import json      # library for working with JSON-formatted text strings
+import requests  # library for accessing content from web URLs
+import pprint    # library for cleanly printing Python data structures
+pp = pprint.PrettyPrinter()
+import pandas as pd
+import earthpy as et
+import geopandas as gpd
+from matplotlib import pyplot as plt
+```
 
 
-You can use the [editor on GitHub](https://github.com/bslin99/Final_Project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Results
+
+
+
 
 ### Markdown
 
