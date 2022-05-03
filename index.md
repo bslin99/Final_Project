@@ -4,13 +4,15 @@
 
 ### Scope and Motivation
 
-This project is focusing on understanding the impacts of rail stations on key demographic areas. The Bay Area consist of multiple transportation agencies within the nine Bay Area Counties. Within those counties, there are seven rail lines that serves the residents of the Bay Area. The rail lines that will be focused on are BART, MUNI, and SMART. 
+This project is focusing on understanding the impacts of rail stations on key demographic areas. The Bay Area consist of multiple transportation agencies within the nine Bay Area Counties. Within those counties, there are seven rail lines that serves the residents of the Bay Area. The intended investigatation is whether rail transit stops are in denser areas, higher income areas, and/or areas of high white population concentration. The insipiration to answer this because of its equity applications, as rail is faster, reliable, and heavily subsidized compared to the bus.
+
+The rail lines that will be focused on are BART, MUNI, and SMART. 
 
 Below is the graph of stations that are focused on in the project:
 
 **INSERT GRAPH HERE IDK HOW TO DO IT YET**
 
-The time frame that was focused on is between 2010 and 2020. The census tracts around each respective station of focus was analyed for temporal changes, before and after the station was opened. The demographic area that was the main focus was Household Income. 
+The time frame that was focused on is between 2010 and 2020. The census tracts around each respective station of focus was analyed for temporal changes, before and after the station was opened. The two demographic areas of focus was Household Income and Race. 
 
 ## Methodology
 
@@ -29,7 +31,8 @@ import geopandas as gpd
 from matplotlib import pyplot as plt
 ```
 
-The analysis of census data with all 10 years. Each year from 2010-2020 had to individually be analyzed to determine total income and average income. 
+The analysis of census data with all 10 years. Each year from 2010-2020 had to individually be analyzed to determine total income and average income for each respective year. The census data provided the number of individuals making the between a range of annual incomes.
+
 ```markdown
 census_2011_1 = census_2011.iloc[1:,[0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32]]
 census_2011_2 = census_2011_1.astype(int)
@@ -68,8 +71,11 @@ census_2011_5 = census_2011_4[["trctid","AverageIncome"]] #print
 census_2011_5
 ```
 
+The same process is ultilized when analyzing the racial demographics from the census data was
+
 ## Results
 
+In terms of output, the graphs below shows the percent change of Income within all Bay Area rail stations that were opened between 2010 and 2020. 
 
 
 
