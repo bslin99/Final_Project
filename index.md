@@ -10,7 +10,7 @@ The rail lines that will be focused on are BART, MUNI, and SMART.
 
 Below is the graph of stations that are focused on in the project:
 
-**INSERT GRAPH HERE IDK HOW TO DO IT YET**
+![image](https://user-images.githubusercontent.com/98051167/166744482-615261bb-0d81-4fbe-994f-de15cfdda468.png)
 
 The time frame that was focused on is between 2010 and 2020. The census tracts around each respective station of focus was analyed for temporal changes, before and after the station was opened. The two demographic areas of focus was Household Income and Race. 
 
