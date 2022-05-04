@@ -75,6 +75,7 @@ The same process is ultilized when analyzing the racial demographics from the ce
 
 ## Results
 
+### Visualizing Income
 In terms of output, the graphs below shows the percent change of Income within all Bay Area rail stations that were opened between 2010 and 2020. 
 
 General Bay Area
@@ -88,6 +89,20 @@ Focused on SMART
 Focused on MUNI
 ![image](https://user-images.githubusercontent.com/98051167/166805102-f7e122f5-cb07-4ae4-955f-178372f76e70.png)
 ![image](https://user-images.githubusercontent.com/98051167/166805130-9245105d-c334-4fa1-9fe2-5b38ebfdb29e.png)
+
+### Visualizing change 
+
+General Bay Area
+![image](https://user-images.githubusercontent.com/98051167/166809307-01e7a305-330c-49de-832f-5fd65dbb44bc.png)
+![image](https://user-images.githubusercontent.com/98051167/166809352-e216510c-8fd5-40fb-a258-732d1ec2e6fc.png)
+
+Focusing on SMART
+![image](https://user-images.githubusercontent.com/98051167/166809493-20c2f802-8734-4690-8d4a-5b6d50c3ffa5.png)
+![image](https://user-images.githubusercontent.com/98051167/166809531-fe86e2d3-ab81-471c-aa10-2ad2b5c79974.png)
+
+Focusing on MUNI
+![image](https://user-images.githubusercontent.com/98051167/166809392-c7571d11-3c3d-4e93-a582-6afd3e4ffaef.png)
+![image](https://user-images.githubusercontent.com/98051167/166809446-92c96275-c741-4277-8ac6-b452085a5107.png)
 
 
 ### Markdown
