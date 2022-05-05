@@ -31,13 +31,13 @@ import earthpy as et
 import geopandas as gpd
 from matplotlib import pyplot as plt
 ```
-The data that was used was extracted from ArcGIS, MTC, and ACS Data. 
+The data that was used was extracted from MTC and ACS Data. 
 
-The tracts were exported from ArcGIS API through the code below. 
+The tracts were exported from the MTC API through the code below. 
 ```markdown
 tracts= gpd.read_file("https://services3.arcgis.com/i2dkYWmb4wHvYPda/arcgis/rest/services/region_censustract_clp/FeatureServer/5/query?outFields=*&where=1%3D1&f=geojson")
 ```
-INSERT WEBSITES HERE
+For the ACS Data, **TYPE HERE**
 
 The analysis of census data with all 10 years. Each year from 2010-2020 had to individually be analyzed to determine total income and average income for each respective year. The census data provided the number of individuals making the between a range of annual incomes.
 
@@ -92,11 +92,15 @@ _Figure 2: Income distribution before 2015 in the Bay Area_
 ![image](https://user-images.githubusercontent.com/98051167/166804714-3225a4d1-950c-4d60-ac8e-2577b4772ce2.png)
 _Figure 3: Income distribution after 2015 in the Bay Area_
 
+In _Figure 2_,we do not see any strong regional trends besides growth across the board between 2010 and 2015. There are a few exceptions but those show only small decreases in income. Between 2015 and 2020, we see more variation in income across the Bay Area as seen in _Figure 3_. Income is increasing along the inner Bay Area near the water, and decreasing as you move further East. All of our new train stations are located near cities, so it appears that there is income growth around the train stations. A particularly interesting case study is the Antioch extension located in the East Bay. This station is immediately surrounded by Blue, but as you move further into the periphery from the station, income actually decreases. This shows a contrast from the 2010-2015 period, where these tracts were experiencing growth. Perhaps the station was the treatment that concentrated income growth. 
+
 Income differences within the SMART corridor:
 ![image](https://user-images.githubusercontent.com/98051167/166805672-d1667b6f-3269-45f9-95f2-5c9a1750b05a.png)
-_Figure 4: Income distribution before 2015 in the SMART Corridor_
+_Figure 4: Income distribution before 2017 in the SMART Corridor_
 ![image](https://user-images.githubusercontent.com/98051167/166805014-3fd84542-644c-4134-b745-28dbd3d6d81f.png)
-_Figure 5: Income distribution after 2015 in the SMART Corridor_
+_Figure 5: Income distribution after 2017 in the SMART Corridor_
+
+From 2010-2017(shown in _Figure 4_), we see income in Marin and Sonoma counties along the SMART train corridor increasing across the board, with no tracts showing a decrease in income. After the station opened, we began to see some decreases in income in the 2017-2020 period. Some of the strongest census tract growth occurs outside of the station census tracts as shown in _Figure 5_. The 3 southernmost stops in San Rafael and Larkspur show the largest variation in income change. San Rafael is has a lower median income than the rest of Marin County, and is more densely populated. Because these tracts are smaller and more populated, we can see the neighborhoods that experienced income decreases. The tracts with decreasing income are closer to Highway 101 and Interstate 580 (East of the stations) and have to cross the freeway to get to the stations, experiencing less of the potential upside of living near the train, perhaps decreasing the station's positive impacts on income. Additionally, users in San Rafael live significantly closer to the train’s end station in Larkspur to access the San Francisco Ferry, so residents may opt for other more convenient modes to get to the ferry.
 
 Income diffences within the MUNI corridor:
 ![image](https://user-images.githubusercontent.com/98051167/166805102-f7e122f5-cb07-4ae4-955f-178372f76e70.png)
@@ -118,9 +122,11 @@ In _Figure 8_, from the years of 2010 to 2015, there does not appears to be any 
 
 Focusing on SMART
 ![image](https://user-images.githubusercontent.com/98051167/166809493-20c2f802-8734-4690-8d4a-5b6d50c3ffa5.png)
-_Figure 10: White population before 2015 in the SMART Corridor_
+_Figure 10: White population before 2017 in the SMART Corridor_
 ![image](https://user-images.githubusercontent.com/98051167/166809531-fe86e2d3-ab81-471c-aa10-2ad2b5c79974.png)
-_Figure 11: White population before 2015 in the SMART Corridor_
+_Figure 11: White population before 2017 in the SMART Corridor_
+
+Before the SMART train opened (shown in _Figure 10_), the share of white people living in Sonoma and Marin counties was decreasing. After 2017, both counties showed increases in the share of white residents across the board, which is shown in _Figure 11_. This could be because white people are moving into the counties, or non-white people are moving out, or a combination of the two. However, rail users tend to be higher income and white. With income and the share of white people increasing, there is an opportunity to build transit oriented development near these stations to diversify ridership and the cities with stations. 
 
 Focusing on MUNI
 ![image](https://user-images.githubusercontent.com/98051167/166809392-c7571d11-3c3d-4e93-a582-6afd3e4ffaef.png)
