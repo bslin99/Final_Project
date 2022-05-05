@@ -6,11 +6,12 @@
 
 This project is focusing on understanding the impacts of rail stations on key demographic areas. The Bay Area consist of multiple transportation agencies within the nine Bay Area Counties. Within those counties, there are seven rail lines that serves the residents of the Bay Area. The intended investigatation is whether rail transit stops are in denser areas, higher income areas, and/or areas of high white population concentration. The insipiration to answer this because of its equity applications, as rail is faster, reliable, and heavily subsidized compared to the bus.
 
-The rail lines that will be focused on are BART, MUNI, and SMART. 
+The rail lines that will be focused on are BART (Bay Area Rapid Transit), SFMTA MUNI (San Francisco Municipal Railway), and SMART (Sonoma-Marin Area Rail Transit). 
 
 Below is the graph of stations that are focused on in the project:
 
 ![image](https://user-images.githubusercontent.com/98051167/166744482-615261bb-0d81-4fbe-994f-de15cfdda468.png)
+_Figure 1: Train Stations in the Bay Area_
 
 The time frame that was focused on is between 2010 and 2020. The census tracts around each respective station of focus was analyed for temporal changes, before and after the station was opened. The two demographic areas of focus was Household Income and Race. 
 
@@ -78,23 +79,33 @@ The same process is ultilized when analyzing the racial demographics from the ce
 ### Visualizing Income
 In terms of output, the graphs below shows the percent change of Income within all Bay Area rail stations that were opened between 2010 and 2020. 
 
-General Bay Area
+Income differences within the San Francisco Bay Area:
 ![image](https://user-images.githubusercontent.com/98051167/166804617-3d03feaf-86db-4790-bdef-84b0db5b6980.png)
+_Figure 2: Income distribution before 2015 in the Bay Area_
 ![image](https://user-images.githubusercontent.com/98051167/166804714-3225a4d1-950c-4d60-ac8e-2577b4772ce2.png)
+_Figure 3: Income distribution after 2015 in the Bay Area_
 
-Focused on SMART
+Income differences within the SMART corridor:
 ![image](https://user-images.githubusercontent.com/98051167/166805672-d1667b6f-3269-45f9-95f2-5c9a1750b05a.png)
+_Figure 4: Income distribution before 2015 in the SMART Corridor_
 ![image](https://user-images.githubusercontent.com/98051167/166805014-3fd84542-644c-4134-b745-28dbd3d6d81f.png)
+_Figure 5: Income distribution after 2015 in the SMART Corridor_
 
-Focused on MUNI
+Income diffences within the MUNI corridor:
 ![image](https://user-images.githubusercontent.com/98051167/166805102-f7e122f5-cb07-4ae4-955f-178372f76e70.png)
+_Figure 6: Income distribution before 2015 in the MUNI Corridor_
 ![image](https://user-images.githubusercontent.com/98051167/166805130-9245105d-c334-4fa1-9fe2-5b38ebfdb29e.png)
+_Figure 7: Income distribution after 2015 in the MUNI Corridor_
 
-### Visualizing change 
+As shown in _Figure 6_, it can be seen that the tracts that contain newly built train stations in the MUNI corridor were increasing across the board. There appears to be no tracts near the train stations that are expericing a decrease in income. For _Figure 7_, it can be seen that are both decreases and increases in income within certain tracts that contain a newly built train station. The two tracts of interest are the tracts that contain either Fisherman's Wharf or the ferry building. With respective to the tract containing Fisherman's Wharf, it can be seen that there is a decrease in annaul income after the MUNI train stations were implemented. This may be due to more individuals leaving that area as it's becoming more of a tourism spot rather than residental. In terms of the tract containing the ferry building, there appears to be a sustainable increase in income in that area around the ferry building. The incorporation of MUNI rail station leads to improvement of transportation accessiblity in that area. The improved accessibility may have lead to that area become more attractive as a residental option.
+
+### Visualizing Change in Race (White Population)
 
 General Bay Area
 ![image](https://user-images.githubusercontent.com/98051167/166809307-01e7a305-330c-49de-832f-5fd65dbb44bc.png)
 ![image](https://user-images.githubusercontent.com/98051167/166809352-e216510c-8fd5-40fb-a258-732d1ec2e6fc.png)
+
+As shown
 
 Focusing on SMART
 ![image](https://user-images.githubusercontent.com/98051167/166809493-20c2f802-8734-4690-8d4a-5b6d50c3ffa5.png)
