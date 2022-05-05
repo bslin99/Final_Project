@@ -31,6 +31,13 @@ import earthpy as et
 import geopandas as gpd
 from matplotlib import pyplot as plt
 ```
+The data that was used was extracted from ArcGIS, MTC, and ACS Data. 
+
+The tracts were exported from ArcGIS API through the code below. 
+```markdown
+tracts= gpd.read_file("https://services3.arcgis.com/i2dkYWmb4wHvYPda/arcgis/rest/services/region_censustract_clp/FeatureServer/5/query?outFields=*&where=1%3D1&f=geojson")
+```
+INSERT WEBSITES HERE
 
 The analysis of census data with all 10 years. Each year from 2010-2020 had to individually be analyzed to determine total income and average income for each respective year. The census data provided the number of individuals making the between a range of annual incomes.
 
@@ -121,7 +128,7 @@ _Figure 12: White population before 2015 in the MUNI Corridor_
 ![image](https://user-images.githubusercontent.com/98051167/166809446-92c96275-c741-4277-8ac6-b452085a5107.png)
 _Figure 13: White population before 2015 in the MUNI Corridor_
 
-With _Figure 12_, it can be seen that the census tracts within the MUNI corridor within 2010 to 2015 are experiencing a subtle decrease in percent white population. There are few tracts that are experiencing a slight increase in
+With _Figure 12_, it can be seen that the census tracts within the MUNI corridor within 2010 to 2015 are experiencing a subtle decrease in percent white population. However with _Figure 13_, the trend the figure has is quite similiar to that of the income distribution between 2015 and 2020. The tract containing the Fisherman's Wharf experiences a decrease in percent white over those 5 years while the tract containing the area near the ferry building experiences an increase in white population. The fact that two tracts within the same MUNI corridor experiencing opposing behaviors with both income and white populations raises the question about the true impact of MUNI rail stations, even if there is an impact at all.
 
 ### Markdown
 
