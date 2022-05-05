@@ -103,18 +103,25 @@ As shown in _Figure 6_, it can be seen that the tracts that contain newly built 
 
 General Bay Area
 ![image](https://user-images.githubusercontent.com/98051167/166809307-01e7a305-330c-49de-832f-5fd65dbb44bc.png)
+_Figure 8: White population before 2015 in the Bay Area_
 ![image](https://user-images.githubusercontent.com/98051167/166809352-e216510c-8fd5-40fb-a258-732d1ec2e6fc.png)
+_Figure 9: White population after 2015 in the Bay Area_
 
-As shown
+In _Figure 8_, from the years of 2010 to 2015, there does not appears to be any strong regional trends with percent white population. From years 2015 to 2020 (shown in _Figure 9_, there appears to be a lot of variation in terms of percent white population spanning across the Bay. Within Marin and Sonoma county, there appears to be a subtle increase in the white population. While in other counties, in particular San Francisco county, Santa Clara county, San Mateo county, and Alameda county, continue to experience fluctations with some areas experiencing increase in percent white and decrease in percent white.
 
 Focusing on SMART
 ![image](https://user-images.githubusercontent.com/98051167/166809493-20c2f802-8734-4690-8d4a-5b6d50c3ffa5.png)
+_Figure 10: White population before 2015 in the SMART Corridor_
 ![image](https://user-images.githubusercontent.com/98051167/166809531-fe86e2d3-ab81-471c-aa10-2ad2b5c79974.png)
+_Figure 11: White population before 2015 in the SMART Corridor_
 
 Focusing on MUNI
 ![image](https://user-images.githubusercontent.com/98051167/166809392-c7571d11-3c3d-4e93-a582-6afd3e4ffaef.png)
+_Figure 12: White population before 2015 in the MUNI Corridor_
 ![image](https://user-images.githubusercontent.com/98051167/166809446-92c96275-c741-4277-8ac6-b452085a5107.png)
+_Figure 13: White population before 2015 in the MUNI Corridor_
 
+With _Figure 12_, it can be seen that the census tracts within the MUNI corridor within 2010 to 2015 are experiencing a subtle decrease in percent white population. There are few tracts that are experiencing a slight increase in
 
 ### Markdown
 
