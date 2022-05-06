@@ -1,5 +1,9 @@
 # Visualizing Demographic Changes Near Bay Area Rail Stations
 
+Authors: 
+Drake Hayes (He/Him) - drake.hayes@berkeley.edu
+Brian Lin (He/Him) - brian.s.lin@berkeley.edu
+
 ### Scope and Motivation
 
 This project is focusing on understanding the impacts of rail stations on key demographic areas. The Bay Area consist of multiple transportation agencies within the nine Bay Area Counties. Within those counties, there are seven rail lines that serves the residents of the Bay Area. The intended investigatation is whether rail transit stops are in denser areas, higher income areas, and/or areas of high white population concentration. The insipiration to answer this because of its equity applications, as rail is faster, reliable, and heavily subsidized compared to the bus.
