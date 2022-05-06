@@ -1,8 +1,8 @@
 # Visualizing Demographic Changes Near Bay Area Rail Stations
 
 Authors: 
-Drake Hayes (He/Him) - drake.hayes@berkeley.edu
-Brian Lin (He/Him) - brian.s.lin@berkeley.edu
+- Drake Hayes (He/Him) - drake.hayes@berkeley.edu
+- Brian Lin (He/Him) - brian.s.lin@berkeley.edu
 
 ### Scope and Motivation
 
