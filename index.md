@@ -33,13 +33,11 @@ from matplotlib import pyplot as plt
 ```
 The data that was used was extracted from MTC and ACS Data. 
 
-The tracts were exported from the MTC API through the code below. 
+The tracts were exported from the MTC API through the code below while train stations were exported from a CSV file. 
 ```markdown
 tracts= gpd.read_file("https://services3.arcgis.com/i2dkYWmb4wHvYPda/arcgis/rest/services/region_censustract_clp/FeatureServer/5/query?outFields=*&where=1%3D1&f=geojson")
 ```
-For the ACS Data, **TYPE HERE**
-
-The analysis of census data with all 10 years. Each year from 2010-2020 had to individually be analyzed to determine total income and average income for each respective year. The census data provided the number of individuals making the between a range of annual incomes.
+The data for train stations in the Bay Area was accessed with the following link: https://opendata.mtc.ca.gov/maps/efd75b7bb3c04dbda06c6e7cd73e9336. With regards to retrieving demographic data, the American Community Survey 2010-2020 5-year estimates, Tables B01001A (Race) and B19001 (Income) was used in the analysis. The analysis of census data with all 10 years. Each year from 2010-2020 had to individually be analyzed to determine total income and average income for each respective year. The census data provided the number of individuals making the between a range of annual incomes. The clean up and analysis was performed with the code below.
 
 ```markdown
 census_2011_1 = census_2011.iloc[1:,[0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32]]
@@ -79,7 +77,7 @@ census_2011_5 = census_2011_4[["trctid","AverageIncome"]] #print
 census_2011_5
 ```
 
-The same process is ultilized when analyzing the racial demographics from the census data was
+The same process from income data was ultilized when analyzing the racial demographics within the San Francisco Bay Area.
 
 ## Results
 
