@@ -36,7 +36,8 @@ The tracts were exported from the MTC API through the code below while train sta
 ```markdown
 tracts= gpd.read_file("https://services3.arcgis.com/i2dkYWmb4wHvYPda/arcgis/rest/services/region_censustract_clp/FeatureServer/5/query?outFields=*&where=1%3D1&f=geojson")
 ```
-The data for train stations in the Bay Area was accessed with the following link: https://opendata.mtc.ca.gov/maps/efd75b7bb3c04dbda06c6e7cd73e9336. With regards to retrieving demographic data, the American Community Survey 2010-2020 5-year estimates, Tables B01001A (Race) and B19001 (Income) was used in the analysis. The analysis of census data with all 10 years. Each year from 2010-2020 had to individually be analyzed to determine total income and average income for each respective year. The census data provided the number of individuals making the between a range of annual incomes. The clean up and analysis was performed with the code below.
+The data for train stations in the Bay Area was accessed with the following link: https://opendata.mtc.ca.gov/maps/efd75b7bb3c04dbda06c6e7cd73e9336. 
+With regards to retrieving demographic data, the American Community Survey 2010-2020 5-year estimates, Tables B01001A (Race) and B19001 (Income) was used in the analysis. The analysis of census data with all 10 years. Each year from 2010-2020 had to individually be analyzed to determine total income and average income for each respective year. The census data provided the number of individuals making the between a range of annual incomes. The clean up and analysis was performed with the code below.
 
 ```markdown
 census_2011_1 = census_2011.iloc[1:,[0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32]]
@@ -87,13 +88,13 @@ In terms of output, the graphs below shows the percent change of Income within a
 ![image](https://user-images.githubusercontent.com/98051167/167046628-af4f0cfc-0ed7-4d6c-abd1-04fc59453b30.png)
 ![image](https://user-images.githubusercontent.com/98051167/167046644-1c3f3693-300f-4758-8c55-d5ed818fa659.png)
 
-In _Figure 2_,we do not see any strong regional trends besides growth across the board between 2010 and 2015. There are a few exceptions but those show only small decreases in income. Between 2015 and 2020, we see more variation in income across the Bay Area as seen in _Figure 3_. Income is increasing along the inner Bay Area near the water, and decreasing as you move further east. All of our new train stations are located near cities, so it appears that there is income growth around the train stations. A particularly interesting case study is the Antioch extension located in the East Bay. This station is immediately surrounded by blue, but as you move further into the periphery from the station, income actually decreases. This shows a contrast from the 2010-2015 period, where these tracts were experiencing growth. Perhaps the station was the treatment that concentrated income growth. 
+In _Figure 2_, we do not see any strong regional trends besides growth across the board between 2010 and 2015. There are a few exceptions but those show only small decreases in income. Between 2015 and 2020, we see more variation in income across the Bay Area as seen in _Figure 3_. Income is increasing along the inner Bay Area near the water, and decreasing as you move further east. All of our new train stations are located near cities, so it appears that there is income growth around the train stations. A particularly interesting case study is the Antioch extension located in the East Bay. This station is immediately surrounded by blue, but as you move further into the periphery from the station, income actually decreases. This shows a contrast from the 2010-2015 period, where these tracts were experiencing growth. Perhaps the station was the treatment that concentrated income growth. 
 
 **Income differences within the SMART corridor:**
 ![image](https://user-images.githubusercontent.com/98051167/167046681-bfb5a501-05c7-4b07-92ab-025a4779da5f.png)
 ![image](https://user-images.githubusercontent.com/98051167/167046688-fb81a2d9-9df2-41ab-96c4-75abc4c91302.png)
 
-From 2010-2017(shown in _Figure 4_), we see income in Marin and Sonoma counties along the SMART train corridor increasing across the board, with no tracts showing a decrease in income. After the station opened, we began to see some decreases in income in the 2017-2020 period. Some of the strongest census tract growth occurs outside of the station census tracts as shown in _Figure 5_. The 3 southernmost stops in San Rafael and Larkspur show the largest variation in income change. San Rafael is has a lower median income than the rest of Marin County, and is more densely populated. Because these tracts are smaller and more populated, we can see the neighborhoods that experienced income decreases. The tracts with decreasing income are closer to Highway 101 and Interstate 580 (east of the stations) and have to cross the freeway to get to the stations, experiencing less of the potential upside of living near the train, perhaps decreasing the station's positive impacts on income. Additionally, users in San Rafael live significantly closer to the train’s end station in Larkspur to access the San Francisco Ferry, so residents may opt for other more convenient modes to get to the ferry.
+From 2010-2017 (shown in _Figure 4_), we see income in Marin and Sonoma counties along the SMART train corridor increasing across the board, with no tracts showing a decrease in income. After the station opened, we began to see some decreases in income in the 2017-2020 period. Some of the strongest census tract growth occurs outside of the station census tracts as shown in _Figure 5_. The 3 southernmost stops in San Rafael and Larkspur show the largest variation in income change. San Rafael is has a lower median income than the rest of Marin County, and is more densely populated. Because these tracts are smaller and more populated, we can see the neighborhoods that experienced income decreases. The tracts with decreasing income are closer to Highway 101 and Interstate 580 (east of the stations) and have to cross the freeway to get to the stations, experiencing less of the potential upside of living near the train, perhaps decreasing the station's positive impacts on income. Additionally, users in San Rafael live significantly closer to the train’s end station in Larkspur to access the San Francisco Ferry, so residents may opt for other more convenient modes to get to the ferry.
 
 **Income diffences within the MUNI corridor:**
 ![image](https://user-images.githubusercontent.com/98051167/167046707-820e5739-1412-4b69-8cce-f36e54fe047e.png)
@@ -107,7 +108,7 @@ As shown in _Figure 6_, it can be seen that the tracts that contain newly built 
 ![image](https://user-images.githubusercontent.com/98051167/167046791-25d8a632-b41b-4f68-b8ee-3d0b3be48c19.png)
 ![image](https://user-images.githubusercontent.com/98051167/167046797-39c31dbc-848e-4169-9d58-d562160c89c8.png)
 
-In _Figure 8_, from the years of 2010 to 2015, there does not appears to be any strong regional trends with percent white population. From years 2015 to 2020 (shown in _Figure 9_, there appears to be a lot of variation in terms of percent white population spanning across the Bay. Within Marin and Sonoma county, there appears to be a subtle increase in the white population. While in other counties, in particular San Francisco county, Santa Clara county, San Mateo county, and Alameda county, continue to experience fluctations with some areas experiencing increase in percent white and decrease in percent white.
+In _Figure 8_, from the years of 2010 to 2015, there does not appears to be any strong regional trends with percent white population. From years 2015 to 2020 (shown in _Figure 9_), there appears to be a lot of variation in terms of percent white population spanning across the Bay. Within Marin and Sonoma county, there appears to be a subtle increase in the white population. While in other counties, in particular San Francisco county, Santa Clara county, San Mateo county, and Alameda county, continue to experience fluctations with some areas experiencing increase in percent white and decrease in percent white.
 
 **Percent White Trends on SMART Corridor**
 ![image](https://user-images.githubusercontent.com/98051167/167046965-54cc296b-5195-4999-8768-9f9329c56a64.png)
@@ -123,35 +124,7 @@ With _Figure 12_, it can be seen that the census tracts within the MUNI corridor
 
 ## Conclusions and Next Steps
 
+This project showed us the difficulty in conducting planning research. Because this is an observational study, we cannot determine whether the demographic changes in the surrounding census tracts of a new train station were created by the train station itself. Since this research is spatial in design, we would need to attempt a suitability analysis to control for other factors to isolate the effects of the train stations. However, the data from this project can show where rail lines are placed and who has access to them, particularly in the short term before people may adjust where they work or live based on a new train station. 
 
-### Markdown
+As far as data limitations and next steps, the main issues we ran into was the scale of the census tract being irregular. In addition to not being the same in population or geographic scale, the tracts may change shape over time as the population in a tract grows or shrinks beyond what the Census deems acceptable. Knowing this, if we had more time we would buffer around each station or use equal area bins around each station to try to limit the changes in geographic scale. We would also like to use data beyond our 10 year timeframe, and perhaps look at additional variables such as home value, property tax value assessments, and housing unit density. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bslin99/Final_Project/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
