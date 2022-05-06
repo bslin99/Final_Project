@@ -1,5 +1,3 @@
-## Welcome to CYPLAN255!
-
 # Visualizing Demographic Changes Near Bay Area Rail Stations
 
 ### Scope and Motivation
