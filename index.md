@@ -6,7 +6,7 @@ Authors:
 
 ### Scope and Motivation
 
-This project is focusing on understanding the impacts of rail stations on key demographic areas. The Bay Area consist of multiple transportation agencies within the nine Bay Area Counties. Within those counties, there are seven rail lines that serves the residents of the Bay Area. The intended investigatation is whether rail transit stops are in denser areas, higher income areas, and/or areas of high white population concentration. The insipiration to answer this because of its equity applications, as rail is faster, reliable, and heavily subsidized compared to the bus.
+This project is focusing on understanding the impacts of rail stations on key demographic areas. The Bay Area consist of multiple transportation agencies within the nine Bay Area Counties. Within those counties, there are seven rail lines that serves the residents of the Bay Area. We investigate whether newly opened rail transit stops affect ncome and racial demographics in the census tracts surrounding the stations before and after they open. The insipiration to answer this because of its equity applications, as rail is faster, reliable, and heavily subsidized compared to the bus.
 
 The rail lines that will be focused on are BART (Bay Area Rapid Transit), SFMTA MUNI (San Francisco Municipal Railway), and SMART (Sonoma-Marin Area Rail Transit). 
 
@@ -18,7 +18,7 @@ The time frame that was focused on is between 2010 and 2020. The census tracts a
 
 ## Methodology
 
-In order to investigate the impact of Bay Area Rail Stations, we collected data from Metropolitan Transportation Commission (MTC) Data and American Community Survey (ACS) Data from 2010 - 2020. The MTC dataset provided train station data while the ACS data provides average household income for each respective tract.
+In order to investigate the impact of Bay Area Rail Stations, we retrieved data from Metropolitan Transportation Commission (MTC) Data and American Community Survey (ACS) Data from 2010 - 2020. The MTC dataset provided train station data while the ACS data provides average household income for each respective tract.
 
 Packages that are ultilized in juypter notebook for the analysis are below:
 
@@ -85,7 +85,7 @@ The same process from income data was ultilized when analyzing the racial demogr
 ## Results
 
 ### Visualizing Income
-In terms of output, the graphs below shows the percent change of Income within all Bay Area rail stations that were opened between 2010 and 2020. 
+In terms of output, the choropleth maps below shows the percent change of Income within all Bay Area rail stations that were opened between 2010 and 2020. 
 
 **Income differences within the San Francisco Bay Area:**
 ![image](https://user-images.githubusercontent.com/98051167/167046628-af4f0cfc-0ed7-4d6c-abd1-04fc59453b30.png)
